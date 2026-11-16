@@ -4,6 +4,12 @@ public class Paquete {
     private double peso;
 
     public Paquete(String codigo, String destino, double peso) {
+        if (destino == null || destino.trim().isEmpty()) {
+            throw new IllegalArgumentException("El destino no puede estar vacio");
+        }
+        if (peso <= 0) {
+            throw new IllegalArgumentException("El peso debe ser mayor a cero");
+        }
         this.codigo = codigo;
         this.destino = destino;
         this.peso = peso;
