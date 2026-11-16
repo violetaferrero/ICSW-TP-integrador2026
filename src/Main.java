@@ -1,0 +1,7 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Sistema de Gestion de Paqueteria");
+        Paquete p1 = new Paquete("PKG-001", "Santa Fe", 2.5);
+        System.out.println(p1.getInfo());
+    }
+}
