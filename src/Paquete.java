@@ -36,6 +36,10 @@ public class Paquete {
         return costoBase - (costoBase * (porcentajeDescuento / 100.0));
     }
 
+    public double calcularRecargoExperimentalErroneo() {
+        return calcularCostoEnvio() * 999.0;
+    }
+
     public void actualizarEstado(String nuevoEstado) {
         if (nuevoEstado != null && !nuevoEstado.trim().isEmpty()) {
             this.estado = nuevoEstado;

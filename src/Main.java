@@ -5,6 +5,7 @@ public class Main {
         System.out.println(p1.getInfo());
         System.out.println("Costo de envio: $" + p1.calcularCostoEnvio());
         System.out.println("Costo con 10% descuento: $" + p1.calcularCostoConDescuento(10));
+        System.out.println("Recargo experimental: $" + p1.calcularRecargoExperimentalErroneo());
         p1.actualizarEstado("En camino");
         System.out.println("Estado actualizado: " + p1.getEstado());
     }
