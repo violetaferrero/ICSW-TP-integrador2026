@@ -1,3 +1,11 @@
+## Integrantes del equipo
+
+El equipo de desarrollo está conformado por:
+
+- **Angela Stoppello** - GitHub: [@AngelaStoppello](https://github.com/AngelaStoppello)
+- **Tomás Sanchez Zeniquel** - GitHub: [@Sanchezzt](https://github.com/Sanchezzt)
+- **Violeta Ferrero** - GitHub: [@violetaferrero](https://github.com/violetaferrero)
+
 # Sistema de Gestión de Paquetería — TP Integrador SGC (UTN FRSF)
 
 Repositorio correspondiente al Trabajo Práctico Integrador de **Ingeniería y Calidad de Software** (Tema: *Sistemas de Gestión de la Configuración*), aplicando el flujo de trabajo **Gitflow**, integración continua mediante **GitHub Actions** y revisión cruzada de Pull Requests.
